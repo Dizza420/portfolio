@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 19, 19);
+    font-family: 'Lato', sans-serif;scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(19, 19, 19);
+    height: 10px;
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(143, 59, 226);
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 70px;
+    padding-top: -10px;
+    align-items: center;
+    height: 475px;
+    line-height: 50px;
+}
+
+.intro{
+    height: 600px;
+    background-image:linear-gradient(to bottom,rgba(19, 19, 19, 0.835),rgba(19, 19, 19, 0.291),rgb(19, 19, 19)), url("jeremy-bishop-rqWoB4LFgmc-unsplash.jpg");
+    background-size:30%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size:cover ;
+}
+
+.intro .heading{
+    font-size: 40px;
+    color: rgb(196, 196, 196);
+}
+
+#typing-container pre{
+    color: rgb(143, 59, 226);
+    font-size: 30px;
+    display: inline;
+}
+.intro span{
+    font-size: 40px;
+    color: rgb(143, 59, 226);
+    font-size: 30px;
+    width: auto;
+}
+
+.about{
+    color: rgb(205, 206, 206);
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px 20px 70px  ;
+}
+.projects .typing-container2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(205, 206, 206);
+    margin-bottom: 100px;
+}
+#typing2{
+    color: rgb(143, 59, 226);
+}
+
+.typing-container2 .typed-cursor--blink {
+    color: rgb(143, 59, 226);
+
+}
+
+.typing-container2 .typed-cursor {
+    color: rgb(143, 59, 226);
+
+}
+.projects-col-1{
+    display: flex;
+}
+
+.card-1{
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(to right,rgba(36, 36, 36, 0),rgba(36, 36, 36, 0.164),rgb(36, 36, 36)), url("/project_1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:start;
+    overflow: hidden;
+}
+
+.pr-para{
+    background-color: rgb(36, 36, 36);
+    height: 500px;
+    width: 600px;
+    display: flex ;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding-top: 50px;
+    color: rgb(196, 196, 196);
+    line-height: 30px;
+}
+
+.pr-para h1{
+    padding: 0;
+    margin: 0;
+    color: rgb(196, 196, 196);
+
+}
+.pr-para p{
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+}
+
+.pr-para a{
+    color: rgb(143, 59, 226);
+    text-decoration: none;
+}
