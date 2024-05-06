@@ -137,13 +137,15 @@ body{
     position: relative;
     right: -600px;
     width: 700px;
-    top: -400px;
+    top: -511px;
 }
 
 
 .pr-1 img{
     position: relative;
-    left: -400px;
+    height: 475px;
+    /* width: 908px; */
+    left: -152px;
 }
 .pr-bt{
     position: relative;
@@ -223,6 +225,13 @@ body{
     border:2px solid rgb(169, 30, 233);
     color: #000;
     transition: background-color 1s, color 1s,border 1s;
+}
+.education{
+    margin: 100px 0;
+    color: aliceblue;
+}
+.education ul {
+    list-style-type: none;
 }
 .webform{
     display: flex;
